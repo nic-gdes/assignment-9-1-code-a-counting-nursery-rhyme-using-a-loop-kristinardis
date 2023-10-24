@@ -21,21 +21,21 @@ One fat sausages, sizzling in a pan, one went pop and the other went bang!
 No fat sausages, sizzling in a pan*/
 
 var word = "fat sausages";
-    var count = 10;
+var count = 10;
 
-   while (count > 0) {
-      console.log(count + " " + word + "s" + " sizzling in the pan");
-      console.log("one went pop and the other went bang!");
+while (count > 0) {
+    console.log(count + " " + word + "s" + " sizzling in the pan");
+    console.log("one went pop and the other went bang!");
 
-      count = count - 1;
+    count = count - 1;
 
-    if (count > 0); {
+    if (count > 0) {
         console.log(count + " " + word + "s" + " sizzling in the pan");
     } else {
         console.log("No fat sausages sizzling in a pan");
-       }
-   }
-      
+    };
+}
+
 
 
 
